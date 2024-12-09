@@ -1,6 +1,6 @@
 package com.mycompany.aula02;
 
-public class Aula02 {
+public class main {
 
     public static void main(String[] args) {
         Pen p1 = new Pen();
