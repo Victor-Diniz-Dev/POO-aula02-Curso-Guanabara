@@ -27,5 +27,20 @@ public class main {
         keyboard.tirarFio();
         keyboard.digitar();
         keyboard.mudarCor();
+
+
+        Trabalhar dia1 = new Trabalhar();
+        dia1.horario = 14;
+        dia1.local = "Embu das Artes";
+        dia1.vestimenta = "Uniforme";
+        dia1.noiteBemDormida();
+        dia1.acordar();
+        dia1.statusDoDia();
+
+        Trabalhar dia2 = new Trabalhar();
+        dia2.noiteMalDormida();
+        dia2.acordar();
+        dia2.statusDoDia();
+
     }
 }
