@@ -9,8 +9,8 @@ public class main {
         p1.destampar();
         p1.confirmar();
         p1.status();
-        p1.rabiscar(); 
-       
+        p1.rabiscar();
+
         Pen p2 = new Pen();
         p2.color = "Black";
         p2.model = "BIC";
@@ -18,5 +18,14 @@ public class main {
         p2.confirmar();
         p2.status();
         p2.rabiscar();
+
+
+        Teclado keyboard = new Teclado();
+        keyboard.colocarFio();
+        keyboard.digitar();
+        keyboard.mudarCor();
+        keyboard.tirarFio();
+        keyboard.digitar();
+        keyboard.mudarCor();
     }
 }
