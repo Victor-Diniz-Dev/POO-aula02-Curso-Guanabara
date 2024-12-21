@@ -4,14 +4,14 @@ public class main {
 
     public static void main(String[] args) {
         Pen p1 = new Pen();
-        p1.color = "Azul";
+        /*p1.color = "Azul";
         p1.model = "BIC";
         p1.destampar();
-        p1.confirmar();
+        p1.confirmar();*/
         p1.status();
-        p1.rabiscar();
+        /*p1.rabiscar();*/
 
-        Pen p2 = new Pen();
+        /*Pen p2 = new Pen();
         p2.color = "Black";
         p2.model = "BIC";
         p2.tampar();
@@ -40,7 +40,7 @@ public class main {
         Trabalhar dia2 = new Trabalhar();
         dia2.noiteMalDormida();
         dia2.acordar();
-        dia2.statusDoDia();
+        dia2.statusDoDia();*/
 
     }
 }

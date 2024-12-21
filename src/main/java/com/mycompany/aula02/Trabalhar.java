@@ -1,10 +1,10 @@
 package com.mycompany.aula02;
 
 public class Trabalhar {
-    int horario;
-    String local;
-    String vestimenta;
-    boolean sono;
+    private int horario;
+    private String local;
+    private String vestimenta;
+    private boolean sono;
 
     public void acordar(){
         if (sono == true){

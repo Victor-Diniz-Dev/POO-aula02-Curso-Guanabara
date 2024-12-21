@@ -1,10 +1,10 @@
 package com.mycompany.aula02;
 public class Pen {
-    String color;
-    String model;
-    Boolean tampada;
+    private String color;
+    private String model;
+    private Boolean tampada;
     
-    void confirmar(){
+    public void confirmar(){
         if (tampada == true){
             System.out.println("Sim");
         } else {
@@ -12,12 +12,12 @@ public class Pen {
         }
     }
     
-    void status(){
+    public void status(){
         System.out.println("Uma caneta " + this.color);
         System.out.println("Esta tampada?" + this.tampada);
         System.out.println("Modelo: " + this.model);
     }
-    void rabiscar(){
+    public void rabiscar(){
        if (this.tampada == true) {
            System.out.println("Erro. Impossivel rabiscar");
        } else{
@@ -25,11 +25,11 @@ public class Pen {
        }
     }
     
-    void tampar(){
+    public void tampar(){
         this.tampada = true;
     }
     
-    void destampar(){
+    public void destampar(){
         this.tampada = false;
     }
 }
